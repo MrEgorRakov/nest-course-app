@@ -25,4 +25,8 @@ export class AppService {
       age: 17,
     };
   }
+
+  getGit() {
+    return 'git and github are cool';
+  }
 }

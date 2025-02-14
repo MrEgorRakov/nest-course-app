@@ -24,4 +24,9 @@ export class AppController {
   getJSON2() {
     return this.appService.getJSON2();
   }
+
+  @Get('/get_git')
+  getGit() {
+    return this.appService.getGit();
+  }
 }
