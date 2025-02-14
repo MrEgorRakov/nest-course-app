@@ -19,4 +19,9 @@ export class AppController {
   getJSON() {
     return this.appService.getJSON();
   }
+
+  @Get('/get_JSON2')
+  getJSON2() {
+    return this.appService.getJSON2();
+  }
 }
