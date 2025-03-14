@@ -29,4 +29,8 @@ export class AppService {
   getGit() {
     return 'git and github are cool';
   }
+
+  getPostman() {
+    return 'we use POOstman:,)';
+  }
 }
