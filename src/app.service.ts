@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Hello NestJS!';
+  getHello() {
+    return { message: 'NestJS with love(MVC)' };
   }
 
   getName(): string {
@@ -12,9 +12,9 @@ export class AppService {
 
   getJSON() {
     return {
-      name: 'Egor',
-      lastName: 'Rakov',
-      age: 17,
+      message: 'name: Egor Rakov',
+      message2: 'age: 17',
+      message3: 'email: egorrakov50@gmail.com',
     };
   }
 
